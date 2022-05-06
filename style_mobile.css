@@ -1,0 +1,391 @@
+@media screen and (max-width: 1000px){
+    body{
+        max-width: 375px;
+        width: 100%;
+        height: 812px;
+    }
+
+    header{
+        background-image: url(Imagens/mobile/Jonas\ background\ phone\ 2.png);
+        height: 812px;
+        padding: 2rem;
+        align-items: center;
+        display: grid;
+    }
+
+    .logo{
+        padding: 0 3.5rem;
+        width: 100%;
+        cursor: pointer;
+    }
+
+    h1{
+        font-size: 25px;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .nome{
+        color: #27A9FF;
+        font-family: 'PT Serif Caption';
+        font-style: normal;
+        font-weight: 400;
+        font-size: clamp (25px, 1em + 0.5vw, 325px);
+    }
+
+    .buttons{
+        display: grid;
+        gap: 2rem;
+    }    
+
+    .matricula{
+        font-family: 'Roboto';
+        font-size: 18px; 
+        border-radius: 0.5rem;
+        background-color: #27A9FF;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    .matricula:hover{
+        background-color: #65c1ff;
+        transition: 0.3s;
+    }
+
+    .whatsapp{
+        margin-left: 0;
+        font-family: 'Roboto';
+        font-size: 18px;
+        border-radius: 0.5rem;
+        border: solid 1px #ffffff;
+        color: white;
+        align-items: center;
+        width: 100%;
+    }
+
+    .whatsapp:hover{
+        background-color: #f1f9ff2d;
+        transition: 0.3s;
+    }  
+
+    /* DOBRA - 02 */
+
+    .section-porque-estutar-filosofia{
+        margin: 0 auto;
+        background-image: url(Imagens/mobile/Dobra\ -\ 2.png);
+        font-family: 'PT Serif Caption';
+        font-size: 16px;
+        padding: 2rem;
+        height: 1030px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h2{
+        font-family: 'PT Serif Caption';
+        padding: 1.5rem 0;
+        font-family: 'PT Serif Caption';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+    }
+
+    .text-section-porque-estutar-filosofia{
+        width: 100%;
+        padding: 0;
+        font-size: clamp (32.6798px, 1em + 3vw, 32.6798px);
+    }
+
+    /* DOBRA - 03 */
+  
+    .dobra-3{
+        background-image: url(Imagens/mobile/Dobra\ -\ 3.png);
+        padding: 2rem;
+        height: 812px;
+        display: grid;
+        width: 100%;
+    }
+    
+    .text-dobra-3{
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+        font-family: 'PT Serif Caption';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    
+    .inicio-aulas{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    
+    .img-inicio-aulas{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .buttons-dobra-3{
+        margin: 0 auto;
+        display: grid;
+        width: 100%;
+        padding: 0 2.5rem;
+    }
+    
+    .matricula-dobra-3{
+        background-color: #003550;
+        color: white;
+        font-family: 'Roboto';
+        border: solid 1px #003550;
+        font-size: 18px;
+        padding: 0.7rem 1rem;
+        text-align: center;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    .whatsapp-dobra-3{
+        font-family: 'Roboto';
+        font-size: 18px;
+        margin-left: 0;
+        padding: 0.5rem 1rem;
+        text-align: center;
+        border-radius: 0.5rem;
+        border: solid 1px #003550;
+        cursor: pointer;
+        width: 100%;
+    }
+    
+    .buttons-dobra-3 > div :nth-child(2){
+        color: #003550;
+    }
+
+    /* DOBRA - 04 */
+
+    .boxs-dobra-4{
+        background-image: url(Imagens/mobile/Dobra\ -\ 4.png);
+        height: 1971px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    .boxs-dobra-4 > div:nth-child(1){
+        padding: 7rem 0 0 0;
+    }
+    
+    .boxs > img{
+        width: 269px;
+        height: 409px;
+        padding: 0;
+    }
+
+    /* DOBRA - 05 */
+
+    .dobra-5{
+        background-image: url(Imagens/mobile/Dobra\ -\ 5.jpg);
+        height: 1329px;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
+    .dobra-5 > h2{
+        padding: 2rem 0;
+    }
+
+    .text-dobra-5{
+        font-family: 'PT Serif Caption';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        width: 100%;
+        text-align: left;
+    }
+
+    .buttons-dobra-5{
+        display: grid;
+        grid-gap: 1rem;
+        width: 100%;
+        padding: 5rem 2.5rem;
+    }
+
+    .matricula-dobra-5{
+        background-color: #003550;
+        color: white;
+        font-family: 'Roboto';
+        border: solid 1px #003550;
+        font-size: 18px;
+        padding: 0.7rem 1rem;
+        text-align: center;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    .matricula-dobra-5:hover{
+        background-color: #003550d3;
+        transition: 0.3s;
+    }
+
+    .whatsapp-dobra-5{
+        font-family: 'Roboto';
+        font-size: 18px;
+        margin-left: 0;
+        padding: 0.5rem 1rem;
+        text-align: center;
+        border-radius: 0.5rem;
+        border: solid 1px #003550;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    .whatsapp-dobra-5:hover{
+        background-color: #00355010;
+        transition: 0.3s;
+    }
+
+    .buttons-dobra-5 > div :nth-child(2){
+        color: #003550;
+    }
+
+    /* DOBRA - 06 */
+
+    .dobra-6{
+        background-image: url(Imagens/Dobra\ -\ 6.jpg);
+        background-size: cover;
+        height: 931.14px;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
+    .section-dobra-6{
+        grid-template-areas: 
+            'title-dobra-6'
+            'div-img-Jonas'
+            'text-dobra-6'
+        ;
+    }
+    
+    .div-img-Jonas{
+        padding: 2rem 0 0 0;
+        grid-area: div-img-Jonas;
+    }
+    
+    .img-Jonas{
+        margin-top: 0;
+        margin-left: 0;
+        max-width: 320px;
+        width: 300px;
+        height: 260px;
+    }
+    
+    .title-dobra-6{
+        grid-area: title-dobra-6;
+    }
+    
+    .text-dobra-6{
+        grid-area: text-dobra-6;
+        width: 100%;
+    }
+
+    .professor{
+        font-family: 'PT Serif Caption';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 38px;
+    }
+
+    .jonas-madureira{
+        font-family: 'PT Serif Caption';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 27px;
+        color: #27A9FF;
+        padding: 0 0 0.5rem 0;
+    }
+
+    .text-section-dobra-6{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .tutor{
+        font-family: 'PT Serif Caption';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .guilherme{
+        font-family: 'PT Serif Caption';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        color: #27A9FF;
+        margin-left: 10px;
+    }
+
+    /* DOBRA - 07 */
+
+    .dobra-7{
+        background-image: url(Imagens/mobile/Dobra\ -\ 7.png);
+        max-width: 375px;
+        height: 1508px;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
+    .dobra-7 h2{
+        margin-top: 25px;
+        padding: 1rem 0;
+    }
+
+    .frames{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 0;
+    }
+
+    .invenstimento{
+        padding: 2.5rem;
+    }
+
+    .img-invenstimento{
+        max-width: 320px;
+    }
+
+    .button-dobra-7{
+        padding: 1rem;
+        justify-content: center;
+        display: flex;
+    }
+
+   /* DOBRA - 08 */
+
+    .dobra-8{
+        height: 83px;
+        height: 220px;
+        padding: 3rem 2rem 2rem 2rem;
+    }
+
+    footer{
+        padding: 2rem 1rem;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+}

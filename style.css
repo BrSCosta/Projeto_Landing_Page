@@ -1,0 +1,527 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif+Caption&family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(238, 238, 238, 0.616);
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'PT Serif Caption';
+}
+
+/* DOBRA - 01 */
+
+header{
+    background-image: url(Imagens/Jonas\ background\ 1.jpg);
+    background-size: cover;
+    padding: 5rem;
+}
+
+.logo{
+    position: relative;
+    width: 196px;
+    height: 61.66px;
+    cursor: pointer;
+}
+
+h1{
+    color: white;
+    font-family: 'PT Serif Caption';
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp (32.6798px, 1em + 3vw, 32.6798px);
+    padding: 5rem 0;
+    width: 35%;
+}
+
+.nome{
+    color: #27A9FF;
+    font-family: 'PT Serif Caption';
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp (32.6798px, 1em + 3vw, 32.6798px);
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+}
+
+.matricula{
+    font-family: 'Roboto';
+    font-size: 18px;
+    padding: 0.8rem;
+    width: 20%;
+    border-radius: 0.5rem;
+    background-color: #27A9FF;
+    color: white;
+    text-decoration: none;
+}
+
+.matricula:hover{
+    background-color: #65c1ff;
+    transition: 0.3s;
+}
+
+.whatsapp{
+    font-family: 'Roboto';
+    font-size: 18px;
+    margin-left: 1.5rem;
+    padding: 0.5rem;
+    width: 20%;
+    text-align: center;
+    border-radius: 0.5rem;
+    border: solid 1px #ffffff;
+    color: white;
+    cursor: pointer;
+}
+
+.whatsapp:hover{
+    background-color: #f1f9ff2d;
+    transition: 0.3s;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+.seta-baixo{
+    padding: 5rem 0 0 0 ;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+/* DOBRA - 02 */
+
+.section-porque-estutar-filosofia{
+    margin: 0 auto;
+    background-image: url(Imagens/Dobra\ -\ 2.jpg);
+    font-family: 'PT Serif Caption';
+    font-size: 16px;
+    padding: 5rem;
+    height: 720px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    font-family: 'PT Serif Caption';
+    padding: 2rem 0;
+    font-family: 'PT Serif Caption';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.text-section-porque-estutar-filosofia{
+    padding: 0 4rem 0 0;
+    font-size: clamp (32.6798px, 1em + 3vw, 32.6798px);
+}
+
+.video{
+    width: 100%;
+}
+
+/* DOBRA - 03 */
+
+.dobra-3{
+    background-image: url(Imagens/Dobra\ -\ 3.png);
+    padding: 5rem;
+    height: 720px;
+    display: grid;
+}
+
+.text-dobra-3{
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+    font-family: 'PT Serif Caption';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.inicio-aulas{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.img-inicio-aulas{
+    margin: 0 auto;
+    padding: 3rem;
+}
+
+.buttons-dobra-3{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0 25%;
+}
+
+.matricula-dobra-3{
+    background-color: #003550;
+    color: white;
+    font-family: 'Roboto';
+    border: solid 1px #003550;
+    font-size: 18px;
+    padding: 0.7rem 1rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    width: 100%;
+}
+
+.matricula-dobra-3:hover{
+    background-color: #003550d3;
+    transition: 0.3s;
+}
+
+.whatsapp-dobra-3{
+    font-family: 'Roboto';
+    font-size: 18px;
+    margin-left: 1.5rem;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    border: solid 1px #003550;
+    cursor: pointer;
+    width: 100%;
+}
+
+.whatsapp-dobra-3:hover{
+    background-color: #00355010;
+    transition: 0.3s;
+}
+
+.buttons-dobra-3 > div :nth-child(2){
+    color: #003550;
+}
+
+/* DOBRA - 04 */
+
+.boxs-dobra-4{
+    background-image: url(Imagens/Dobra\ -\ 4.png);
+    padding: 5rem;
+    height: 720px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.boxs > img{
+    padding: 0 0.6rem;
+    width: 100%;
+}
+
+/* DOBRA - 05 */
+
+.dobra-5{
+    background-image: url(Imagens/Dobra\ -\ 5.png);
+    background-size: cover;
+    height: 720px;
+    padding: 5rem;
+}
+
+.text-dobra-5{
+    font-family: 'PT Serif Caption';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    width: 50%;
+    text-align: left;
+}
+
+.buttons-dobra-5{
+    display: flex;
+    width: 50%;
+    padding: 5rem 0;
+}
+
+.matricula-dobra-5{
+    background-color: #003550;
+    color: white;
+    font-family: 'Roboto';
+    border: solid 1px #003550;
+    font-size: 18px;
+    padding: 0.7rem 1rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    width: 100%;
+}
+
+.matricula-dobra-5:hover{
+    background-color: #003550d3;
+    transition: 0.3s;
+}
+
+.whatsapp-dobra-5{
+    font-family: 'Roboto';
+    font-size: 18px;
+    margin-left: 1.5rem;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    border: solid 1px #003550;
+    cursor: pointer;
+    width: 100%;
+}
+
+.whatsapp-dobra-5:hover{
+    background-color: #00355010;
+    transition: 0.3s;
+}
+
+.buttons-dobra-5 > div :nth-child(2){
+    color: #003550;
+}
+
+/* DOBRA - 06 */
+
+.dobra-6{
+    background-image: url(Imagens/Dobra\ -\ 6.jpg);
+    background-size: cover;
+    height: 720px;
+    padding: 10rem 6rem;
+    margin: 0 auto;
+}
+
+.section-dobra-6{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        'div-img-Jonas title-dobra-6'
+        'div-img-Jonas text-dobra-6'
+    ;
+}
+
+.div-img-Jonas{
+    padding: 1rem;
+    width: 100%;
+    /* background-color: #27A9FF; */
+    grid-area: div-img-Jonas;
+}
+
+.img-Jonas{
+    margin-top: 25px;
+    margin-left: 90px;
+    width: 380px;
+    height: 328px;
+}
+
+.title-dobra-6{
+    align-items: flex-end;
+    padding: 1rem 0 0 0;
+    grid-area: title-dobra-6;
+}
+
+.text-dobra-6{
+    grid-area: text-dobra-6;
+    align-items: flex-end;
+    padding: 1.5rem 0;
+    width: 100%;
+}
+
+.professor{
+    font-family: 'PT Serif Caption';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 53px;
+    padding: 0.5rem 0;
+}
+
+.jonas-madureira{
+    font-family: 'PT Serif Caption';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    color: #27A9FF;
+    padding: 0;
+}
+
+.text-section-dobra-6{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0.5rem 0;
+}
+
+.tutor{
+    font-family: 'PT Serif Caption';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 2rem 0;
+}
+
+.guilherme{
+    font-family: 'PT Serif Caption';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #27A9FF;
+    margin-left: 10px;
+}
+
+/* DOBRA - 07 */
+
+.dobra-7{
+    background-image: url(Imagens/Dobra\ -\ 7.png);
+    height: 909px;
+    padding: 5rem;
+    margin: 0 auto;
+}
+
+.dobra-7 h2{
+    margin-top: 18px;
+    font-family: 'PT Serif Caption';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.frames{
+    display: flex;
+    padding: 3rem 0;
+    align-items: center;
+}
+
+.invenstimento{
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.button-dobra-7{
+    padding: 3rem;
+    justify-content: center;
+    display: flex;
+}
+
+.matricula-dobra-7{
+    justify-content: center;
+    display: flex;
+    background-color: #003550;
+    color: white;
+    font-family: 'Roboto';
+    border: solid 1px #003550;
+    font-size: 18px;
+    padding: 0.7rem 1rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.matricula-dobra-7:hover{
+    background-color: #003550d3;
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 1105px) {
+    .dobra-7{
+        background-image: url(Imagens/Dobra\ -\ 7.png);
+        height: 950px;
+        padding: 5rem;
+        margin: 0 auto;
+    }
+
+    .dobra-7 h2{
+        padding: 0;
+    }
+
+    .frames{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .invenstimento{
+        padding: 2rem;
+    }
+
+    .button-dobra-7{
+        padding: 1rem;
+        justify-content: center;
+        display: flex;
+    }
+}
+
+/* DOBRA - 08 */
+
+.dobra-8{
+    background-color: #F5F5F5;
+    height: 190px;
+    padding: 2.5rem 5rem;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.dobra-8 p{
+    padding: 0 0 2rem 0;
+}
+
+.vetor-whats-dobra-8{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #003651;
+}
+
+.vetor-email-dobra-8{
+    padding: 1rem 0;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #003651;
+}
+
+/* FOOTER */
+
+footer{
+    background: #121212;
+    width: 100%;
+    height: 83px;
+    color: white;
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.text-fotter{
+    padding: 1rem 3rem;
+
+}
